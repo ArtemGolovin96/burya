@@ -46,7 +46,7 @@ import voice
 
 q = queue.Queue()
 
-model = vosk.Model('model_small')  # голосовую модель vosk нужно поместить в папку с файлами проекта
+model = vosk.Model('voice_model_small')  # голосовую модель vosk нужно поместить в папку с файлами проекта
 # https://alphacephei.com/vosk/
 # https://alphacephei.com/vosk/models
 
